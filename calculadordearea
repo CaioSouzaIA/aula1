@@ -1,0 +1,7 @@
+boas_vindas = 'Calculador de área 1.0'
+print(boas_vindas)
+
+base = float(input('Digite a medida da BASE: '))
+altura = float(input('Digite a medida da ALTURA: '))
+area = (base*altura)
+print(f'A área total do retângulo é {area}.')
